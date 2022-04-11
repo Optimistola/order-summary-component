@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+
+<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+body{ 
+font-family:'Red Hat Display', sans-serif;
+font-size:16px;
+background-color:hsl(225, 100%, 94%);
+width:;
+ }
+ h2{
+text-align:center; 
+ }
+ .all{
+ position:relative;
+ top:20px;
+ left:px;
+ box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+ border-radius:20px;
+ margin:15px;
+ background-color:white;
+ width:90%;
+margin-bottom:30px;
+ }
+   .attribution { font-size: 11px; text-align: center; }
+   .attribution a { color: hsl(228, 45%, 44%); }
+   .text{
+text-align:center;
+margin:20px
+}
+.annual{
+background-color:hsl(225, 100%, 98%);
+border-radius:10px;
+width:90%;
+margin:15px;
+}
+.svg{
+position:relative;
+top:5px;
+margin:10px;
+
+}
+.plan{
+position:relative;top:-30px;
+margin:;
+}
+.year{
+position:relative;
+top:-25px;
+left:5px;
+margin:70px;
+}
+.change{
+position:relative;
+top:-30px;
+left:5px;
+color:hsl(245, 75%, 52%);
+}
+.payment{
+   padding:15px;
+   margin:15px;
+   width:80%; 
+text-align:center;
+   border-radius:10px;
+   outline:none;
+   border:1px solid white;
+   background-color:hsl(245, 75%, 52%);
+   color:white;
+   }
+  
+   .order{
+ margin-bottom:px;
+ text-align:center;
+   }
+   img{
+  width:100%;
+border-top-left-radius:20px;
+ border-top-right-radius:20px;
+   }
+   .svg2{
+
+   }
+   @media only screen and (min-width: 600px) {
+   body{width:375px;
+   position:absolute;
+   left:30%;
+   top:30%;
+   background-color:Pale blue: hsl(225, 100%, 98%);}
+   .mpat{display:none;
+   }}
+ .mpat, .dpat  {
+position:fixed;
+left:0px;  
+top:0px; 
+width:100%;
+   }
+   
+   @media only screen and (max-width: 600px) {
+  .dpat{display:none;}} 
+</style>
+</head>
+<body>
+<img class="dpat" src="images/pattern-background-desktop.svg">
+<img class="mpat" src="images/pattern-background-mobile.svg">
+<div class="all">
+<img src="images/illustration-hero.svg">
+ 
+ <h2> Order Summary</h2>
+ <div class="text"> You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!</div>
+<div class="annual">
+<span>
+<svg class="svg" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#DFE6FB"/><path fill="#717FA6" fill-rule="nonzero" d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"/></g></svg>
+<b class="plan"> Annual Plan</b><br>
+<span class="year"> $59.99/year</span>
+<b><a href="" class="change"> Change</a></b>
+</span>
+</div>
+<div class="payment">
+  Proceed to Payment
+  </div>
+ 
+ <div class="order"> Cancel  Order</div>
+ <br><br>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yakub Shakirudeen Olaide</a>.
+  </div>
+  
+</body>
+</html>
